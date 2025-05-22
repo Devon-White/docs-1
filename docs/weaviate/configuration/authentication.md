@@ -11,7 +11,7 @@ Authentication and authorization are closely related concepts, and sometimes abb
 
 ## Authentication
 
-Weaviate controls access through user authentication via API keys or OpenID Connect (OIDC), with an option for anonymous access. Users can then be assigned different [authorization](docs/deploy/config-guides/authorization.md) levels, as shown in the diagram below.
+Weaviate controls access through user authentication via API keys or OpenID Connect (OIDC), with an option for anonymous access. Users can then be assigned different [authorization](/docs/deploy/config-guides/authorization.md) levels, as shown in the diagram below.
 
 ```mermaid
 flowchart LR
@@ -289,9 +289,9 @@ The way to configure authorization differs by your deployment method, depending 
 
 ## Further resources
 
-- [Configuration: Authentication](docs/deploy/config-guides/authentication.md)
-- [Configuration: Authorization](docs/deploy/config-guides/authorization.md)
-- [Configuration: Environment variables - Authentication and Authorization](docs/deploy/config-guides/env-vars/index.md#authentication-and-authorization)
+- [Configuration: Authentication](/docs/deploy/config-guides/authentication.md)
+- [Configuration: Authorization](/docs/deploy/config-guides/authorization.md)
+- [Configuration: Environment variables - Authentication and Authorization](/docs/deploy/config-guides/env-vars/index.md#authentication-and-authorization)
 
 ## Questions and feedback
 

@@ -36,7 +36,7 @@ You can customize your Weaviate configuration by creating a `docker-compose.yml`
 ## Sample Docker Compose file
 
 This starter Docker Compose file allows:
-* Use of any [API-based model provider integrations](docs/weaviate/model-providers/index.md) (e.g. `OpenAI`, `Cohere`, `Google`, and `Anthropic`).
+* Use of any [API-based model provider integrations](/docs/weaviate/model-providers/index.md) (e.g. `OpenAI`, `Cohere`, `Google`, and `Anthropic`).
     * This includes the relevant embedding model, generative, and reranker [integrations](/docs/weaviate/model-providers/index.md).
 * Searching pre-vectorized data (without a vectorizer).
 * Mounts a persistent volume called `weaviate_data` to `/var/lib/weaviate` in the container to store data.
@@ -120,11 +120,11 @@ volumes:
 ...
 ```
 
-This setup enables API-key based [authentication](docs/deploy/config-guides/authentication.md) and role-based access control [authorization](docs/deploy/config-guides/authorization.md).
+This setup enables API-key based [authentication](/docs/deploy/config-guides/authentication.md) and role-based access control [authorization](/docs/deploy/config-guides/authorization.md).
 
 It defines the users `user-a` and `user-b` and corresponding keys `user-a-key` and `user-b-key` which serve as authentication credentials for connecting to your Weaviate instance.
 
-The user `user-a` is granted admin access rights using the **Role-based access control (RBAC)** method. A custom role can be assigned to the user `user-b` by following the [authorization and RBAC guide](docs/deploy/config-guides/authorization.md).
+The user `user-a` is granted admin access rights using the **Role-based access control (RBAC)** method. A custom role can be assigned to the user `user-b` by following the [authorization and RBAC guide](/docs/deploy/config-guides/authorization.md).
 
   </TabItem>
 </Tabs>
@@ -289,7 +289,7 @@ And the other members' configurations may look like this:
       RAFT_BOOTSTRAP_EXPECT: 3
 ```
 
-Below is an example configuration for a 3-node setup. You may be able to test [replication](docs/deploy/config-guides/replication.md) examples locally using this configuration.
+Below is an example configuration for a 3-node setup. You may be able to test [replication](/docs/deploy/config-guides/replication.md) examples locally using this configuration.
 
 
 <details>
